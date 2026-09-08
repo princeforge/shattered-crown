@@ -1,0 +1,7 @@
+{
+  "latest_version": "1.0.3",
+  "min_version": "1.0.0",
+  "update_title": "Update Available!",
+  "update_message": "Version 1.0.3 includes production readiness fixes, cloud saves, and server-side purchase validation.",
+  "force_update": false
+}
