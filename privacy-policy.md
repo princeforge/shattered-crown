@@ -162,12 +162,6 @@ The App is intended for a general audience and is rated **Everyone 10+**
 per the IARC rating system. The App does **not** knowingly collect personal
 information from children under 13.
 
-On first launch, the App displays a neutral age gate asking the player to
-confirm they are old enough to play, or to seek a parent's help. This is a
-one-time confirmation stored as a boolean flag — no birth date, age, or
-personal information is collected. Players who indicate they need parental
-help are shown a brief guidance message.
-
 Google AdMob is configured to serve ads appropriate for the App's content rating.
 If you believe a child under 13 has provided personal information to us through
 the App, please contact us so we can investigate and take appropriate action.
@@ -255,7 +249,6 @@ Website: **https://princeforge.github.io**
 ## Summary (TL;DR)
 
 - We collect **no personal information** directly - all game data stays on your device.
-- A **neutral age gate** appears on first launch (one-time boolean confirmation, no age or birth date collected).
 - **Google UMP** collects your consent choice before ads are shown; you can change it
   anytime via "Privacy Choices" in settings.
 - **Google AdMob** may collect device IDs and ad interaction data to serve ads.
