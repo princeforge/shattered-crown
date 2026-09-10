@@ -1,4 +1,4 @@
-# Screenshot Capture Guide — Hero Defence: Shattered Crown
+# Screenshot Capture Guide — Hero Defense: Shattered Crown
 
 Google Play requires **minimum 2 screenshots**, but **4-8 is recommended** for best conversion.
 Screenshots should be **1920×1080** (landscape) or **1080×1920** (portrait). Since your game

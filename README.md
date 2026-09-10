@@ -1,4 +1,4 @@
-# Hero Defence: Shattered Crown
+# Hero Defense: Shattered Crown
 
 A 2D base-defense tower defense game with unlockable heroes, synergy bonuses,
 a between-wave shop, and persistent progression. Built for mobile and desktop.

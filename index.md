@@ -1,4 +1,4 @@
-# Hero Defence: Shattered Crown
+# Hero Defense: Shattered Crown
 
 A fantasy tower defense game where you command powerful heroes to protect your bases from destruction.
 
@@ -14,14 +14,14 @@ Available on Google Play.
 
 ## About
 
-**Hero Defence: Shattered Crown** is a mobile tower defense strategy game by **Prince Forge**.
+**Hero Defense: Shattered Crown** is a mobile tower defense strategy game by **Prince Forge**.
 
 - Command 14 unique heroes with distinct abilities and elemental affinities
 - Defend 3 bases against relentless enemy waves across 30 levels
 - 5 elemental base types: Fire, Water, Earth, Electric, Nature
 - Boss battles every 5 levels with unique mechanics
 - Deep progression: permanent hero levels, meta-upgrades, fortune shrine
-- Hero synergy system — 60+ pair synergies and 8 hidden synergies to discover
+- Hero synergy system — 91 pair synergies and 8 hidden synergies to discover
 - Touch-optimized controls with pinch-to-zoom and tap-to-move
 
 ## Contact
