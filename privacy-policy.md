@@ -85,8 +85,33 @@ information as described in their respective privacy policies:
 - **Note**: Cloud save is optional. If you do not sign in to Google Play Games,
   your progress remains only on your device.
 
+#### Firebase Analytics
+- **Purpose**: Collects anonymous usage analytics to help us understand how
+  players interact with the game and identify issues
+- **Data collected**: App instance ID, device model, OS version, app version,
+  approximate region (country-level), in-game events (level start, level
+  complete, purchases, etc.). No personal identity, no advertising ID.
+- **Use**: Aggregated and event-level analytics to improve game balance,
+  identify crash-prone levels, and track retention
+- **Link**: [Firebase Analytics Privacy](https://firebase.google.com/support/privacy)
+- **Note**: Analytics data is sent via Google's Firebase infrastructure and is
+  subject to Google's privacy practices.
+
+#### Firebase Crashlytics
+- **Purpose**: Real-time crash reporting to help us diagnose and fix crashes
+  that players experience
+- **Data collected**: Crash stack traces, device model, OS version, app version,
+  crash timing, custom breadcrumbs (current level, last action), and a
+  Crashlytics installation UUID. No personal identity, no advertising ID.
+- **Use**: Automatically sends crash reports when the app crashes or encounters
+  a non-fatal error. We use these reports to identify and fix crash causes.
+- **Link**: [Firebase Crashlytics Privacy](https://firebase.google.com/support/privacy)
+- **Note**: Crashlytics also captures native (C++) crashes from the Godot
+  engine via the Crashlytics NDK integration.
+
 #### Google Play Services
-- **Purpose**: Required infrastructure for ads, billing, and cloud save on Android
+- **Purpose**: Required infrastructure for ads, billing, cloud save, and
+  Firebase on Android
 - **Data collected**: As described in Google's privacy policy
 - **Link**: [Google Privacy Policy](https://policies.google.com/privacy)
 
@@ -99,6 +124,8 @@ information as described in their respective privacy policies:
 - To process and fulfill in-app purchases (via Google Play Billing)
 - To restore your previous purchases when you reinstall the App or switch devices
 - To enforce ad cooldown periods (stored locally on your device)
+- To collect anonymous analytics on gameplay events (via Firebase Analytics)
+- To receive crash reports for diagnosing and fixing crashes (via Firebase Crashlytics)
 
 We do **not** use your information to:
 - Send marketing emails or push notifications
@@ -235,6 +262,9 @@ Website: **https://princeforge.github.io**
 - **Google Play Billing** processes your purchases - purchase tokens are sent to our
   validation server to verify authenticity.
 - **Google Play Games Services** optionally backs up your progress to the cloud.
+- **Firebase Analytics** collects anonymous app usage events (no personal identity).
+- **Firebase Crashlytics** automatically sends crash reports when the app crashes,
+  including stack traces and breadcrumbs (current level, last action).
 - You can reset your ad ID, opt out of personalized ads, change your privacy choices,
   and clear your local data at any time.
 - Purchasing "Remove Ads" stops all ad-related data collection from your device.

@@ -103,6 +103,9 @@ Fill these out in Play Console → App content → Data safety.
 | App activity (app interactions, ad interactions) | Google AdMob | Ad delivery, analytics | Yes (HTTPS) | Reset ad ID in Android settings |
 | Device or other IDs (advertising ID) | Google AdMob | Ad delivery, frequency capping, fraud prevention | Yes | Reset ad ID in Android settings |
 | Purchase history | Google Play Billing | Purchase verification & restore | Yes (managed by Google Play) | Via Google account settings |
+| App activity (app interactions, in-game events) | Firebase Analytics | Anonymous usage analytics, game balance, retention | Yes (HTTPS) | Reset app data / uninstall |
+| Crash logs, diagnostics, device info | Firebase Crashlytics | Crash reporting and debugging | Yes (HTTPS) | Reset app data / uninstall |
+| Device or other IDs (app instance ID, Crashlytics UUID) | Firebase | Analytics and crash attribution | Yes (HTTPS) | Reset app data / uninstall |
 
 ### Data NOT collected
 - Location (no GPS, no precise location - AdMob may use coarse country-level)
